@@ -60,4 +60,4 @@ function Get-AclMapping {
     $AccessMap | Export-Csv -Path $ExportPath
 }
             
-Get-AclMapping -RootPath "C:\Users\Administrator\OneDrive\Documents" -ExportPath "C:\Temp\AclMapping.csv" -BusinessUnit "BUnit"
+Get-AclMapping -RootPath "" -ExportPath "" -BusinessUnit ""
